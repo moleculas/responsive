@@ -1,0 +1,12 @@
+	$(document).ready(function(){
+			//alert('jal');
+			$("button").click(function(){
+				alert('jal');
+			});
+			$(".btnTwo").click(function(){
+				alert('jal2');
+			});
+			$(".btnTres").on('click',function(){
+				alert('jal3');
+			});
+		});
